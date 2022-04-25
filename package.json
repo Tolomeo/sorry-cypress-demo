@@ -5,7 +5,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "CYPRESS_API_URL=\"https://sorry-cypress-demo-director.herokuapp.com/\" cy2 run --parallel --record --key somekey --ci-build-id hello-cypress"
+    "test": "CYPRESS_API_URL=\"http://tolomeosorryc-78349876.eu-west-2.elb.amazonaws.com:8080\" cy2 run --parallel --record --key somekey --ci-build-id hello-cypress"
   },
   "repository": {
     "type": "git",
